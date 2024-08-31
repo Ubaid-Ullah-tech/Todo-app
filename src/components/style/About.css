@@ -1,0 +1,36 @@
+.about-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .about-container h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .about-container p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #555;
+  }
+  
+  .about-container p:last-of-type {
+    margin-bottom: 0;
+  }
+  
+  .profile-image {
+    width: 150px; /* Adjust the width as needed */
+  height: 150px; /* Ensure height matches width for a perfect circle */
+  border-radius: 50%; /* Makes the image circular */
+  margin-bottom: 20px;
+  object-fit: cover; /* Ensures the image covers the entire container */
+  border: 2px solid #ccc; /* Optional: Add a border for better visibility */
+  }
+  
